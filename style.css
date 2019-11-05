@@ -22,6 +22,9 @@ html {
   h1{
       margin:0px;
   }
+  .p-section3{
+      margin: 0;
+  }
   
   /* ---- typography ---- */
   
@@ -45,6 +48,12 @@ html {
   
   h3 {
   }
+  h4{
+    color: #031D5B;
+    font-size: 26px;
+    font-weight: 500;
+
+  }
   
   p {
     margin: 0;
@@ -55,6 +64,21 @@ html {
   .textsection2{
     color:#5B6C94;
   }
+  .tytlesection3 {
+    color: #F8765E;
+    font-size: 30px;
+  }
+
+  .p-section3{
+    height: 200px;	
+    color: #5B6C94;		
+    font-size: 16px;	
+    font-weight: 500;	
+    line-height: 32px;	
+    text-align: center;
+    margin: 0 30px;
+  }
+
   
 
   
@@ -113,7 +137,7 @@ html {
     border-radius: 20px;
     overflow: hidden;
     z-index: 10;
-    box-shadow: 2px 2px 5px grey;
+    box-shadow: 0 10px 34px 0 rgba(210,210,210,0.5);
     padding: 0 40px;
   }
   .section3{
@@ -142,6 +166,20 @@ html {
       margin: 30px auto;
       display: block;
   }
+
+  .blockironhack{
+      text-align: center;
+  }
+  .imgheader2{
+      margin-left: 10px;
+
+  }
+
+  footer{
+    background-color: #F8765E;
+    margin: 0px;
+    padding: 10px;
+  }
   
   @media (min-width: 768px) {
     .container {
@@ -149,7 +187,9 @@ html {
       margin: 0 auto;
     }
   }
-  
+  .titleh33 {
+      position: absolute;
+  }
   
   /* ---- components ---- */
   
@@ -177,7 +217,13 @@ html {
   .mobileorange{
       margin: 60px auto;
   }
-  
+  .button3{
+    height: 60px;	
+    width: 178px;	
+    border-radius: 20px;	
+    background-color: #9BDBE7;	
+    box-shadow: 2px 2px 8px 0 rgba(0,0,0,0.14);
+  }
   /* ---- section ---- */
   
   section.testimonials {
