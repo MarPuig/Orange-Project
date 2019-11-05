@@ -45,10 +45,6 @@ html {
     font-weight: bold;
   }
 
-  h3.title{
-    text-align: left;
-  }
-
   a {
     color: white;
     text-decoration: none;
@@ -61,7 +57,7 @@ html {
 
 
   section {
-    margin: 20px auto;
+    margin: 70px auto;
     padding: 10px;
     background-color: white;
   }
@@ -123,9 +119,16 @@ html {
 
   .p-list-section{
     text-align: left;
+    color: #5B6C94;
   }
+
+  h3.title{
+    text-align: left;
+    color: #031D5B;
+  }
+
   .list-article{
-    padding: 30px 20px;
+    padding: 60px 20px;
   }
 
   .rectangle {
@@ -135,7 +138,38 @@ html {
     margin-bottom: 10px;
   }
 
+  .title-tastes-section {
+    color: #F8765E;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 30px 0 10px 0;
+  }
 
+  h4{
+    color: #031D5B;
+    font-size: 26px;
+    font-weight: 600;
+    margin: 0 0 30px;
+  }
+
+  .p-tastes-section{
+    color: #5B6C94;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .button {
+    background-color: #9BDBE7;
+    color: white;
+    padding: 20px 20px;
+    display: block;
+    border-radius: 20px;
+    margin: 20px auto;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+ 
   
   /* ---- typography 
 
