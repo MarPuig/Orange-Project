@@ -26,7 +26,7 @@ html {
   
   body {
     color: #111;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 147%;
   }
@@ -36,11 +36,9 @@ html {
     text-align: center;
     color: white;
     padding: 10px;
-
+    font-weight: 800;
 }
-  p, h1, h2, h3, h4 {
-    font-family: 'Roboto', sans-serif;
-  }
+
   
   h2 {}
   
@@ -49,8 +47,8 @@ html {
   p {
     margin: 0;
   }
-  .navlist, h1{
-    font-weight: bolder;
+  .navlist{
+    font-weight: 500;
   }
   
 
@@ -85,9 +83,35 @@ html {
   }
 
   header.principal {
-      background-color: #F8765E;
-      margin: 0px;
+    background-color: #F8765E;
+    margin: 0px;
+    padding: 10px;
      
+  }
+  .form1{
+      margin: 0 auto;
+  }
+  .section1 {
+    background-color: #F8765E;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  #email{
+    background-color: white;
+    padding: 10px 30px;
+    display: block;
+    border-radius: 10px;
+    margin: 20px auto;
+  }
+  #submit{
+    background-color: #9BDBE7;
+    padding: 10px 30px;
+    display: block;
+    border-radius: 10px;
+    margin: 20px auto;
+   
   }
   
   @media (min-width: 768px) {
