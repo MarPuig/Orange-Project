@@ -50,6 +50,12 @@ html {
     text-decoration: none;
     }
 
+  a, li.icon-list, p#right-text{
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+  }
+
   ul {
     list-style: none;
     padding: 0;
@@ -57,7 +63,7 @@ html {
 
 
   section {
-    margin: 70px auto;
+    margin: 60px 10px;
     padding: 10px;
     background-color: white;
   }
@@ -74,8 +80,8 @@ html {
   }
 
   form {
-    margin: 60px auto;
-    padding:  30px;
+    margin: 10px 0 60px 0;
+    padding:  10px;
   
   }
 
@@ -148,14 +154,14 @@ html {
   h4{
     color: #031D5B;
     font-size: 26px;
-    font-weight: 600;
+    font-weight: 500;
     margin: 0 0 30px;
   }
 
   .p-tastes-section{
     color: #5B6C94;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
   }
 
   .button {
@@ -168,6 +174,94 @@ html {
     font-size: 20px;
     font-weight: 700;
   }
+
+  section.card-section{
+
+  }
+
+  header#header-card{
+
+  }
+
+  h3.h3-card-section{
+    position: absolute;
+    width: 120px;
+    color: #F8765E;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 20px;
+
+  }
+
+  img.img-header-card{
+    margin-left: 10px;
+    text-align: left;
+    display: block;
+    width: 40%;
+
+  }
+
+  article.card-article{
+    background-color: #9BDBE7;
+    border-radius: 20px;
+    height: 400px;	
+    width: 300px;
+    margin: 30px 0 20px 0;
+    z-index: 15;
+
+  }
+  .square{
+    position: absolute;
+    width: 700px;
+    height: 500px;
+    background: #F8765E;
+    margin-bottom: 10px;
+    z-index: 0;
+    right: 20px;
+    text-align: right;
+  }
+
+  img#comas-img-article{
+
+  }
+
+  p.p-article-card{
+
+  }
+
+.blockironhack{
+    text-align: center;
+}
+.imgheader2{
+    margin-left: 10px;
+
+}
+
+
+
+  h3#subscribe-text{
+    color: #F8765E;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  h4#product-text{
+    color: #CDCDCD;
+    font-size: 26px;
+    margin: 0;
+  }
+
+  footer{
+    background-color: #F8765E;
+    margin: 0px;
+    padding: 10px;
+  }
+  li.icon-list{
+    color: white;
+  }
+
+  
 
  
   
@@ -265,24 +359,9 @@ html {
   }
 
 
-  img{
-      margin: 30px auto;
-      display: block;
-  }
+  
 
-  .blockironhack{
-      text-align: center;
-  }
-  .imgheader2{
-      margin-left: 10px;
 
-  }
-
-  footer{
-    background-color: #F8765E;
-    margin: 0px;
-    padding: 10px;
-  }
   
   @media (min-width: 768px) {
     .container {
@@ -320,13 +399,4 @@ html {
     border-radius: 20px;	
     background-color: #9BDBE7;	
     box-shadow: 2px 2px 8px 0 rgba(0,0,0,0.14);
-  }
-  /* ---- section
-  
-  section.testimonials {
-    // ...
-  }
-  
-  section.testimonials .button {
-    margin-bottom: 10px;
   }

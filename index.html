@@ -23,7 +23,7 @@
     </header>
     <main>
         <section class="main-section"> 
-            <img src="./iPhonemockupheaderphoneorange.png" alt="naranjas en una pantalla de móvil" class="main-image"/>
+            <img src="./assets/iPhonemockupheaderphoneorange.png" alt="naranjas en una pantalla de móvil" class="main-image"/>
             <article>
                 <h2>Subscribe today and get notified first when we launch Orange app!</h2>
                 <p class= "p-main-section">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam facere qui doloribus cupiditate! Suscipit natus voluptatibus corrupti aliquam officia facilis! Tempore similique minus dolor quos aliquam hic, facilis eos voluptate.</p>
@@ -37,7 +37,7 @@
             <ul>
                 <li>
                     <article class="list-article">
-                        <img src="./illustration1imagesection2.1.png" alt="Bosque y símbolo de - %"/>
+                        <img src="./assets/illustration1imagesection2.1.png" alt="Bosque y símbolo de - %"/>
                         <h3 class="title">Title 1</h3>
                         <div class="rectangle"></div>
                         <p class="p-list-section">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium fugit reprehenderit nobis a pariatur nam non deleniti ex atque repellendus deserunt tenetur expedita quo, sapiente id architecto inventore magni voluptatem.</p>
@@ -45,7 +45,7 @@
                 </li>
                 <li>
                     <article class="list-article">
-                        <img src="./illustration2imgsection2.2.png" alt="un docotr y una doctora en una sala"/>
+                        <img src="./assets/illustration2imgsection2.2.png" alt="un docotr y una doctora en una sala"/>
                         <h3 class="title">Title 2</h3>
                         <div class="rectangle"></div>
                         <p class="p-list-section">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium fugit reprehenderit nobis a pariatur nam non deleniti ex atque repellendus deserunt tenetur expedita quo, sapiente id architecto inventore magni voluptatem.</p>
@@ -53,7 +53,7 @@
                 </li>
                 <li>
                     <article class="list-article">
-                        <img src="./illustration3imgsection2.3.png" alt="Dos personas abrazando a un emoticono feliz azul"/>
+                        <img src="./assets/illustration3imgsection2.3.png" alt="Dos personas abrazando a un emoticono feliz azul"/>
                         <h3 class="title">Title 3</h3>
                         <div class="rectangle"></div>
                         <p class="p-list-section">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium fugit reprehenderit nobis a pariatur nam non deleniti ex atque repellendus deserunt tenetur expedita quo, sapiente id architecto inventore magni voluptatem.</p>
@@ -62,39 +62,40 @@
             </ul>
         </section>
         <section class="tastes-section">
-            <img src="./Leftcolumnimgsection3.png" alt="naranjas en una pantalla de móvil" class= "mobileorange"/>
+            <img src="./assets/Leftcolumnimgsection3.png" alt="naranjas en una pantalla de móvil" class= "mobileorange"/>
             <h3 class="title-tastes-section">It tastes like Premium.</h3>
             <h4>Better than an apple.</h4>
             <p class="p-tastes-section">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure corrupti atque nobis ratione praesentium sunt quod ipsum ad natus explicabo tempore eius, pariatur culpa? Excepturi doloremque omnis esse hic consequuntur.</p>
             <button class="button">Subscribe now</button> <!--No tinc clar si es un button o un <a> <a href="#anchor-here">link</a>-->
         </section>
-        <section class="comasimg">
-            <header>
-                <h3 class="titleh33">What Our Customers Say</h3>
-                <img src="./quotesection4.png" alt="dos especies de comas" class= "imgheader2">
+        <section class="card-section">
+            <header id="header-card">
+                <h3 class="h3-card-section">What Our Customers Say</h3>
+                <img src="./assets/quotesection4.png" alt="dos especies de comas" class= "img-header-card"/>
             </header>
-            <article class="blockironhack">
-                <img src="./quotewhitesection42.png" alt="dos especies de comas">
-                <p>"I love oranges!! tasty mmmmmm...."</p>
-                <p>Marjon Siero / Ironhack</p>
+            <div class="square"></div>
+            <article class="card-article">
+                <img src="./assets/quotewhitesection42.png" alt="dos especies de comas" id="comas-img-article">
+                <p class= "p-article-card">"I love oranges!! tasty mmmmmm...."</p>
+                <p class= "p-article-card"> Marjon Siero / Ironhack</p>
             </article>
         </section>
         <section>
-            <h3>Subscribe today and get notified first!</h3>
-            <h4>Product launch in: 12 days</h4>
+            <h3 id="subscribe-text">Subscribe today and get notified first!</h3>
+            <h4 id="product-text">Product launch in: 12 days</h4>
             <form>
-                <input class="email" type= "email" placeholder="Your email address" value="mar@mail.com">
+                <input class="email" type= "email" placeholder="Your email address" value="">
                 <button class= "submit" type="submit">Subscribe now</button>
             </form>
         </section>
     </main>
     <footer>
-        <p>© 2019 Orange All Right Reserved</p>
+        <p id="right-text">© 2019 Orange All Right Reserved</p>
         <ul>
             <li><a href="#">Benefit</a></li>
-            <li>/</li>
+            <li class="icon-list">/</li>
             <li><a href="#">Pricing</a></li>
-            <li>/</li>
+            <li class="icon-list">/</li>
             <li><a href="#">Testimonials</a></li>
         </ul>
     </footer>
