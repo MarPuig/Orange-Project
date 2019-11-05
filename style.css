@@ -13,13 +13,17 @@ html {
     font-family: 'Roboto', sans-serif;
     color: #111;
     font-size: 16px;
-    line-height: 147%;
+    line-height: 1.5;
+    text-align: center;
   }
 
   .main-header{
     background-color: #F8765E;
-      margin: 0px;
-      padding: 10px;
+    margin: 0px;
+    padding: 10px;
+  }
+  .nav-list{
+    font-weight: 500;
   }
 
   h1{
@@ -29,6 +33,16 @@ html {
     color: white;
     padding: 10px;
     font-weight: 800;
+  }
+
+  h2 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  p.p-main-section{
+    font-size: 16px;
+    font-weight: bold;
   }
 
   a {
@@ -41,12 +55,55 @@ html {
     padding: 0;
   }
 
+
   section {
-    margin: 30px 0;
-    padding: 25px;
+    margin: 20px auto;
+    padding: 10px;
     background-color: white;
   }
   
+  .main-section{
+    text-align: center;
+    background-color: #F8765E;
+    margin: -1px;
+    color: white; 
+  
+  }
+  img.main-image {
+    width: 100%;
+  }
+
+  form {
+    margin: 20px auto;
+    padding:  30px;
+  
+  }
+
+  form .email{
+    background-color: white;
+    color: #CDCDCD;
+    padding: 20px 25px;
+    display: block;
+    border-radius: 12px;
+    margin: 10px auto;
+    width: 100%;
+    font-size: 17px;
+    font-weight: 700;
+    box-shadow: inset 0 1px 5px 0 rgba(0,0,0,0.15);
+    border: 1px;
+  }
+
+
+  form .submit{
+    background-color: #9BDBE7;
+    color: white;
+    padding: 20px 20px;
+    display: block;
+    border-radius: 12px;
+    margin: 20px auto;
+    font-size: 20px;
+    font-weight: 700;
+  }
 
 
   
@@ -67,8 +124,6 @@ html {
   p {
     margin: 0;
   }
-  .navlist{
-    font-weight: 500;
   }
   .textsection2{
     color:#5B6C94;
@@ -115,9 +170,7 @@ html {
     margin: 0 20px;
   }
   
-  .section {
-    margin-bottom: 20px;
-    padding-top: 20px;
+  
   }
 
   header .principal {
@@ -155,21 +208,7 @@ html {
   article{
     margin: 2Opx auto;
   }
-  #email{
-    background-color: white;
-    padding: 10px 30px;
-    display: block;
-    border-radius: 10px;
-    margin: 20px auto;
-  }
-  #submit{
-    background-color: #9BDBE7;
-    padding: 10px 30px;
-    display: block;
-    border-radius: 10px;
-    margin: 20px auto;
-   
-  }
+
 
   img{
       margin: 30px auto;
