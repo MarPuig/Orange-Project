@@ -17,6 +17,7 @@ html {
     }
   ul {
     list-style: none;
+    padding: 0;
   }
   h1{
       margin:0px;
@@ -42,13 +43,17 @@ html {
   
   h2 {}
   
-  h3 {}
+  h3 {
+  }
   
   p {
     margin: 0;
   }
   .navlist{
     font-weight: 500;
+  }
+  .textsection2{
+    color:#5B6C94;
   }
   
 
@@ -89,14 +94,33 @@ html {
      
   }
   .form1{
-      margin: 0 auto;
+      margin: 20px auto;
+      padding:  30px;
   }
   .section1 {
     background-color: #F8765E;
     margin: 0 auto;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
     text-align: center;
     color: white;
+  }
+  .section2{
+    background-color: white;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: -80px;
+    border-radius: 20px;
+    overflow: hidden;
+    z-index: 10;
+    box-shadow: 2px 2px 5px grey;
+    padding: 0 40px;
+  }
+  .section3{
+      text-align: center;
+  }
+  article{
+    margin: 2Opx auto;
   }
   #email{
     background-color: white;
@@ -112,6 +136,11 @@ html {
     border-radius: 10px;
     margin: 20px auto;
    
+  }
+
+  img{
+      margin: 30px auto;
+      display: block;
   }
   
   @media (min-width: 768px) {
@@ -137,6 +166,16 @@ html {
   }
   .mobileimage{
     width: 100%;
+  }
+  .rectangle {
+    width: 70px;
+    height: 5px;
+    background: F8765E;
+    margin-bottom: 10px;
+  }
+
+  .mobileorange{
+      margin: 60px auto;
   }
   
   /* ---- section ---- */
