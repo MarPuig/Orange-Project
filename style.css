@@ -1,4 +1,4 @@
-/* ---- reset ---- */
+
 
 html {
     box-sizing: border-box;
@@ -10,38 +10,47 @@ html {
   body {
     margin: 0;
     padding: 0;
-  }
-  a {
-    color: white;
-    text-decoration: none;
-    }
-  ul {
-    list-style: none;
-    padding: 0;
-  }
-  h1{
-      margin:0px;
-  }
-  .p-section3{
-      margin: 0;
-  }
-  
-  /* ---- typography ---- */
-  
-  body {
-    color: #111;
     font-family: 'Roboto', sans-serif;
+    color: #111;
     font-size: 16px;
     line-height: 147%;
   }
-  
-  h1 { 
+
+  .main-header{
+    background-color: #F8765E;
+      margin: 0px;
+      padding: 10px;
+  }
+
+  h1{
+    margin:0px;
     text-transform: uppercase;
     text-align: center;
     color: white;
     padding: 10px;
     font-weight: 800;
-}
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  section {
+    margin: 30px 0;
+    padding: 25px;
+    background-color: white;
+  }
+  
+
+
+  
+  /* ---- typography 
 
   
   h2 {}
@@ -84,7 +93,7 @@ html {
   
   
   
-  /* ---- layout ---- */
+  /* ---- layout 
   
   #site-header {
     padding: 30px 0;
@@ -111,7 +120,7 @@ html {
     padding-top: 20px;
   }
 
-  header.principal {
+  header .principal {
     background-color: #F8765E;
     margin: 0px;
     padding: 10px;
@@ -191,8 +200,7 @@ html {
       position: absolute;
   }
   
-  /* ---- components ---- */
-  
+  /* ---- components 
   .button {
     width: 100%;
     background-color: blue;
@@ -224,7 +232,7 @@ html {
     background-color: #9BDBE7;	
     box-shadow: 2px 2px 8px 0 rgba(0,0,0,0.14);
   }
-  /* ---- section ---- */
+  /* ---- section
   
   section.testimonials {
     // ...
