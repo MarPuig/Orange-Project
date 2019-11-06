@@ -41,6 +41,12 @@ html {
     margin: 0px;
     padding: 10px;
   }
+  @media (min-width: 768px){
+    li{ justify-content: flex-end;
+
+    }
+  } 
+  
   .nav-list{
     font-weight: 500;
   }
