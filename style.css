@@ -1,5 +1,7 @@
 
 
+/* ---- reset ---- */
+
 html {
     box-sizing: border-box;
   }
@@ -61,6 +63,14 @@ html {
     padding: 0;
   }
 
+  ul.list-flex{
+    display: flex;
+    margin: 0 40px 10px 40px;
+  }
+
+  li{
+    flex:auto;
+  }
 
   section {
     margin: 60px 10px;
@@ -113,8 +123,7 @@ html {
 
   section.list-section{
     background-color: white;
-    width: 90%;
-    margin: 0 auto;
+    margin: 20px 20px;
     margin-top: -70px;
     border-radius: 20px;
     overflow: hidden;
@@ -176,50 +185,64 @@ html {
   }
 
   section.card-section{
+    margin: 30px 10px;
+    position: relative;
 
   }
 
   header#header-card{
+    z-index: 15;
+    margin-left: -10px;
+    margin-top: 90px;
+    width: 50%;
+    position: relative;
 
   }
 
   h3.h3-card-section{
     position: absolute;
-    width: 120px;
+    width: 100px;
     color: #F8765E;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: bold;
     text-align: left;
     margin-left: 20px;
+    
 
   }
 
   img.img-header-card{
     margin-left: 10px;
+    
     text-align: left;
     display: block;
-    width: 40%;
+    width: 110px;
 
   }
 
   article.card-article{
     background-color: #9BDBE7;
     border-radius: 20px;
-    height: 400px;	
+    height: 400px;
     width: 300px;
     margin: 30px 0 20px 0;
-    z-index: 15;
+    z-index: 10;
+    position: relative;
 
   }
   .square{
     position: absolute;
-    width: 700px;
-    height: 500px;
-    background: #F8765E;
-    margin-bottom: 10px;
+    top:100px;
     z-index: 0;
-    right: 20px;
+    width: 100%;
+    height: 80%;
+    background: #F8765E;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    border-radius: 20px;
     text-align: right;
+  
   }
 
   img#comas-img-article{
@@ -230,15 +253,14 @@ html {
 
   }
 
-.blockironhack{
-    text-align: center;
-}
-.imgheader2{
-    margin-left: 10px;
-
+.p-article-card-Marjon{
+  bottom: 80px;
 }
 
-
+  #subscribe-section{
+    margin: 60px 0 0 0;
+    position: relative;
+  }
 
   h3#subscribe-text{
     color: #F8765E;
@@ -251,152 +273,17 @@ html {
     font-size: 26px;
     margin: 0;
   }
+  #form-subscribe{
+    margin: 10px 0 10px 0;
+  }
 
   footer{
     background-color: #F8765E;
     margin: 0px;
     padding: 10px;
+    
   }
   li.icon-list{
     color: white;
   }
 
-  
-
- 
-  
-  /* ---- typography 
-
-  
-  h2 {}
-  
-  h3 {
-  }
-  h4{
-    color: #031D5B;
-    font-size: 26px;
-    font-weight: 500;
-
-  }
-  
-  p {
-    margin: 0;
-  }
-  }
-  .textsection2{
-    color:#5B6C94;
-  }
-  .tytlesection3 {
-    color: #F8765E;
-    font-size: 30px;
-  }
-
-  .p-section3{
-    height: 200px;	
-    color: #5B6C94;		
-    font-size: 16px;	
-    font-weight: 500;	
-    line-height: 32px;	
-    text-align: center;
-    margin: 0 30px;
-  }
-
-  
-
-  
-  
-  
-  /* ---- layout 
-  
-  #site-header {
-    padding: 30px 0;
-    color: white;
-    background: #111;
-  }
-  
-  #site-footer {
-    color: white;
-    padding: 60px 0;
-    background: #111;
-  }
-  
-  #site-main {
-    margin-bottom: 60px;
-  }
-  
-  .container {
-    margin: 0 20px;
-  }
-  
-  
-  }
-
- 
-  .section1 {
-    background-color: #F8765E;
-    margin: 0 auto;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    text-align: center;
-    color: white;
-  }
-  .section2{
-    background-color: white;
-    width: 90%;
-    margin: 0 auto;
-    margin-top: -80px;
-    border-radius: 20px;
-    overflow: hidden;
-    z-index: 10;
-    box-shadow: 0 10px 34px 0 rgba(210,210,210,0.5);
-    padding: 0 40px;
-  }
-  .section3{
-      text-align: center;
-  }
-  article{
-    margin: 2Opx auto;
-  }
-
-
-  
-
-
-  
-  @media (min-width: 768px) {
-    .container {
-      max-width: 728px;
-      margin: 0 auto;
-    }
-  }
-  .titleh33 {
-      position: absolute;
-  }
-  
-  /* ---- components 
-  .button {
-    width: 100%;
-    background-color: blue;
-    color: #fff;
-    border: 1px solid #fff
-  }
-  
-  .button-alt {
-    color: blue;
-    background-color: #fff;
-  }
-  .mobileimage{
-    width: 100%;
-  }
-  
-
-  .mobileorange{
-      margin: 60px auto;
-  }
-  .button3{
-    height: 60px;	
-    width: 178px;	
-    border-radius: 20px;	
-    background-color: #9BDBE7;	
-    box-shadow: 2px 2px 8px 0 rgba(0,0,0,0.14);
-  }
