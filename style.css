@@ -9,18 +9,35 @@ html {
     box-sizing: inherit;
   }
   
+  :root {
+    --first-color: #F8765E;
+    --second-color: white;
+    --third-color: #9BDBE7;
+    --fourth-color: #111;
+    --shadow-color: rgba(210,210,210,0.5);
+    --shadow1-color: rgba(0,0,0,0.15);
+    --text-second-color:#5B6C94;
+    --seventh-color:#9BDBE7;
+    --fifth-color: violet;
+    --sixth-color: #CDCDCD;
+    --title-color: #031D5B;
+    --first-font-size: 16px;
+    --h2-size: 30px;
+    --form-font-size: 20px;
+    --h4-size: 26px;
+  }
   body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    color: #111;
-    font-size: 16px;
+    color: var(--fourth-color);
+    font-size: var(--first-font-size);
     line-height: 1.5;
     text-align: center;
   }
 
   .main-header{
-    background-color: #F8765E;
+    background-color: var(--first-color);
     margin: 0px;
     padding: 10px;
   }
@@ -32,30 +49,30 @@ html {
     margin:0px;
     text-transform: uppercase;
     text-align: center;
-    color: white;
+    color: var(--second-color);
     padding: 10px;
     font-weight: 800;
   }
 
   h2 {
-    font-size: 30px;
+    font-size: var(--h2-size);
     font-weight: bold;
   }
   
   p.p-main-section{
-    font-size: 16px;
+    font-size: var(--first-font-size);
     font-weight: bold;
   }
 
   a {
-    color: white;
+    color:var(--second-color);
     text-decoration: none;
     }
 
   a, li.icon-list, p#right-text{
-    font-size: 16px;
+    font-size: var(--first-font-size);
     font-weight: bold;
-    color: white;
+    color: var(--second-color);
   }
 
   ul {
@@ -75,14 +92,14 @@ html {
   section {
     margin: 60px 10px;
     padding: 10px;
-    background-color: white;
+    background-color: var(--second-color);
   }
   
   .main-section{
     text-align: center;
-    background-color: #F8765E;
+    background-color: var(--first-color);
     margin: -1px;
-    color: white; 
+    color: var(--second-color); 
   
   }
   img.main-image {
@@ -96,23 +113,23 @@ html {
   }
 
   form .email{
-    background-color: white;
-    color: #CDCDCD;
+    background-color: var(--second-color);
+    color: var(--sixth-color);
     padding: 20px 25px;
     display: block;
     border-radius: 20px;
     margin: 10px auto;
     width: 100%;
-    font-size: 17px;
+    font-size: var(--first-font-size);
     font-weight: 700;
-    box-shadow: inset 0 1px 5px 0 rgba(0,0,0,0.15);
+    box-shadow: inset 0 1px 5px 0 var(--shadow1-color);
     border: 1px;
   }
 
 
   form .submit{
-    background-color: #9BDBE7;
-    color: white;
+    background-color: var(--third-color);
+    color: var(--second-color);
     padding: 20px 20px;
     display: block;
     border-radius: 20px;
@@ -122,24 +139,24 @@ html {
   }
 
   section.list-section{
-    background-color: white;
+    background-color: var(--second-color);
     margin: 20px 20px;
     margin-top: -70px;
     border-radius: 20px;
     overflow: hidden;
     z-index: 10;
-    box-shadow: 0 10px 34px 0 rgba(210,210,210,0.5);
+    box-shadow: 0 10px 34px 0 var(--shadow-color);
     padding: 0 20px;
   }
 
   .p-list-section{
     text-align: left;
-    color: #5B6C94;
+    color: var(--text-second-color);
   }
 
   h3.title{
     text-align: left;
-    color: #031D5B;
+    color: var(--title-color);
   }
 
   .list-article{
@@ -149,33 +166,33 @@ html {
   .rectangle {
     width: 70px;
     height: 5px;
-    background: #F8765E;
+    background: var(--first-color);
     margin-bottom: 10px;
   }
 
   .title-tastes-section {
-    color: #F8765E;
+    color: var(--first-color);
     font-size: 30px;
     font-weight: bold;
     margin: 30px 0 10px 0;
   }
 
   h4{
-    color: #031D5B;
+    color: var(--title-color);
     font-size: 26px;
     font-weight: 500;
     margin: 0 0 30px;
   }
 
   .p-tastes-section{
-    color: #5B6C94;
-    font-size: 16px;
+    color: var(--text-second-color);
+    font-size: var(--first-font-size);
     font-weight: 500;
   }
 
   .button {
-    background-color: #9BDBE7;
-    color: white;
+    background-color: var(--third-color);
+    color: var(--second-color);
     padding: 20px 20px;
     display: block;
     border-radius: 20px;
@@ -202,7 +219,7 @@ html {
   h3.h3-card-section{
     position: absolute;
     width: 100px;
-    color: #F8765E;
+    color: var(--first-color);
     font-size: 12px;
     font-weight: bold;
     text-align: left;
@@ -221,7 +238,7 @@ html {
   }
 
   article.card-article{
-    background-color: #9BDBE7;
+    background-color: var(--third-color);
     border-radius: 20px;
     height: 400px;
     width: 300px;
@@ -232,7 +249,7 @@ html {
   }
 
   #card-change{
-    background-color: violet;
+    background-color: var(--fifth-color);
 
   
 
@@ -243,7 +260,7 @@ html {
     z-index: 0;
     width: 87%;
     height: 85%;
-    background: #F8765E;
+    background: var(--first-color);
     margin-top: 80px;
     margin-bottom: 10px;
     margin-left: 40px;
@@ -261,8 +278,8 @@ html {
     padding: 50px 0 40px 0;
     margin: 0 10%;
     text-align: left;
-    color: white;
-    font-size: 16px;
+    color: var(--second-color);
+    font-size: var(--first-font-size);
     font-weight: 400;
   }
 
@@ -277,13 +294,13 @@ html {
   }
 
   h3#subscribe-text{
-    color: #F8765E;
+    color: var(--first-color);
     font-size: 30px;
     font-weight: bold;
   }
 
   h4#product-text{
-    color: #CDCDCD;
+    color: var(--sixth-color);
     font-size: 26px;
     margin: 0;
   }
@@ -292,12 +309,12 @@ html {
   }
 
   footer{
-    background-color: #F8765E;
+    background-color: var(--first-color);
     margin: 0px;
     padding: 10px;
     
   }
   li.icon-list{
-    color: white;
+    color: var(--second-color);
   }
 
