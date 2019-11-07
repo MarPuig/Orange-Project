@@ -35,18 +35,33 @@ html {
     line-height: 1.5;
     text-align: center;
   }
+  @media (min-width: 768px) {
+    .main-header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .right-text{
+        flex: 1;
+        text-align: left;
+    }
+    
+    .list-flex {
+        text-align:;
+        flex: 2;
+        justify-content: space-between; 
+    }
+    a{
+      padding: 20px;
+    }
+}
 
   .main-header{
     background-color: var(--first-color);
     margin: 0px;
     padding: 10px;
   }
-  @media (min-width: 768px){
-    li{ justify-content: flex-end;
 
-    }
-  } 
-  
   .nav-list{
     font-weight: 500;
   }
@@ -143,7 +158,16 @@ html {
     font-size: 20px;
     font-weight: 700;
   }
+  @media only screen 
+  and (min-width: 768px) {
+    .list-section {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 604px 0;
+      text-align:center;
 
+    }
+  }
   section.list-section{
     background-color: var(--second-color);
     margin: 20px 20px;
@@ -264,7 +288,7 @@ html {
     position: absolute;
     top:100px;
     z-index: 0;
-    width: 87%;
+    width: 100%;
     height: 85%;
     background: var(--first-color);
     margin-top: 80px;
@@ -314,12 +338,34 @@ html {
     margin: 10px 0 10px 0;
   }
 
+  @media (min-width: 768px) {
+    footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .right-text{
+        flex: 1;
+        text-align: left;
+    }
+    
+    .list-flex {
+        text-align:;
+        flex: 2;
+        justify-content: space-between; 
+    }
+    a{
+      padding:;
+    }
+}
+
   footer{
     background-color: var(--first-color);
     margin: 0px;
     padding: 10px;
-    
   }
+
+  
   li.icon-list{
     color: var(--second-color);
   }
